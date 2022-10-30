@@ -13,4 +13,10 @@ public class HelloController {
 		return "Hello World";
 	}
 	
+	@RequestMapping("/testegit")
+	@ResponseBody
+	public String gitHub() {
+		return "testando se funciona o git Hub";
+	}
+	
 }
