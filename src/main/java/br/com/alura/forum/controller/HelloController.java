@@ -13,5 +13,4 @@ public class HelloController {
 		return "Hello World";
 	}
 	
-// comando apagado, apenas para testar a recepção.
 }
